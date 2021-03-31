@@ -25,7 +25,9 @@ h2{
 	margin: 0;
 	font-size: 64px;
 	color: #E91B8A;
+	text-transform: uppercase;
 }
+
 
 a{
 	color: #000;
@@ -200,19 +202,21 @@ a{
 	margin-bottom: 300px;
 }
 
-.box3two img {
-	width: 400px;
-	margin-right: 100px;
 
-}
-
-.box3t img {
-	width: 400px;
-
-}
-
-
+.box3one{
 	
+
+}
+
+.box3one h2{
+	width: 300px;
+
+}
+
+.box3one p{
+	width: 200px;
+}
+
 .btnn a{
 	background: #FFFFFF;
 	width: 200px;
@@ -221,9 +225,9 @@ a{
     border: 1px solid #000;
     display: block; 
     transition: all 0.5s ease;
-    margin-left: 100px;
     margin-top: 34px;
     padding-top: 20px;
+
 
 
 }
@@ -231,4 +235,46 @@ a{
 .btnn a:hover {
 	background: #E91B8A;
 	
+}
+.owl-one{
+	width: 950px;
+
+}
+
+
+.botton_story a{
+	background: #FFFFFF;
+	width: 200px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #000;
+    display: block; 
+    transition: all 0.5s ease;
+    margin-top: 34px;
+    padding-top: 20px;
+
+}
+
+.botton_story a:hover{
+	background: #E91B8A;
+
+}
+
+.ride_repeat{
+	width: 300px;
+	margin-right: 80px;
+
+}
+
+.container_ride{
+	display: flex;
+	box-sizing: border-box;
+	width: 1170px;
+	margin:0 auto;
+	margin-bottom: 200px;
+}
+
+.footer{
+	background: #000;
+	height: 300px;
 }
