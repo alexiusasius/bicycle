@@ -75,6 +75,7 @@ a{
 	text-transform: uppercase;
 	margin-bottom: 25px;
 
+
 }
 
 .vertical{
@@ -120,12 +121,13 @@ a{
 .video{
 	width: 100%;
 	position: absolute;
-	 background: url("../img/m2.svg") no-repeat center top / cover ;
+	background: url("../img/m2.svg") no-repeat center top / cover ;
 }
 
 .vid{
 	
 	opacity: 0.1;
+	
 
 
 }
@@ -277,4 +279,54 @@ a{
 .footer{
 	background: #000;
 	height: 300px;
+}
+
+.bike_info:hover{
+	
+	
+}
+
+.bike_info a:hover{
+	background-color: #E91B8A;
+    transition: background-color .5s;
+
+	
+}
+
+.bike_info_price{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+
+.bike_one{
+	padding-top: 15px;
+}
+
+.bike_three{
+	padding-top: 15px;
+
+}
+
+.bike_for{
+	padding-top: 10px;
+
+}
+
+.bike_five{
+	padding-top: 10px;
+
+}
+
+.bike_info_price_mark{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+
+	
+}
+
+.bike_seven{
+	padding-top: 10px;
+
 }

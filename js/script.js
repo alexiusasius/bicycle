@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#nd-car").owlCarousel({
-  	margin:20,
+  	margin:90,
   	items:2,
   	loop:true,
   	
