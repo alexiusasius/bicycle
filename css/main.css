@@ -330,3 +330,19 @@ a{
 	padding-top: 10px;
 
 }
+
+.story{
+	height: 426px;
+	
+	padding-top: 10px;
+}
+
+.story p{
+	
+}
+
+.story a:hover{
+	background-color: #E91B8A;
+    transition: background-color .5s;
+
+}
